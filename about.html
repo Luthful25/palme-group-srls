@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PALME GROUP SRLS</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="subisidaries.html">SUBISIDARIES</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+<!-------about us content-->
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>Our Commitment to Becoming a Top-Class and Trusted Company</h1>
+      <p>In today’s rapidly changing world—marked by economic uncertainty, technological disruption, and shifting global priorities—trust and excellence have become the foundation of sustainable growth. At PALME GROUP SRLS, we recognize that success in the modern era depends not only on innovation but also on integrity, resilience, and global collaboration.
+
+Founded with the vision to connect Italy and Bangladesh, our company stands as a bridge between cultures, talents, and markets. We are committed to becoming a top-class and trusted multinational enterprise, built on the principles of transparency, quality, and forward-thinking leadership.
+
+As the world moves toward digital transformation, ethical business, and environmental responsibility, PALME GROUP SRLS aims to set new standards in how companies operate across borders. Through our subsidiaries like Palme Mini Market and La Puita Super Shop, we continue to deliver value to communities while embracing technology and sustainability.
+
+Our journey reflects the spirit of modern entrepreneurship—driven by purpose, guided by values, and inspired by a belief that great companies don’t just follow trends—they help shape a better future for all.</p>
+<a href="" class="hero-btn red-btn">EXPLORE NOW</a>    
+</div>
+      <div class="about-col">
+  <img src="images/Economic.jpg">
+      </div> 
+</div>
+</section>
+
+<!--footer-->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>PALME GROUP SRLS is a multinational company based in Palermo, Italy, founded in 2025, connecting Italy and Bangladesh through innovative business ventures and subsidiaries in retail, technology, and trade.</p>
+<div class="icons">
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-linkedin"></i>
+</div>
+<p>Made With<i class="fa fa-heart-o"></i>by Palme Group</p>
+</section>
+
+<!-------JavaScript for toggle Menu------>
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+     function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+        
+</script>
+
+</body>
+</html>
